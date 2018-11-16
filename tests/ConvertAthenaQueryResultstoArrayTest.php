@@ -1,8 +1,8 @@
 <?php
-namespace Abetomo\ConvertAthenaQueryResultstoArray\Tests;
+namespace david50407\ConvertAthenaQueryResultstoArray\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Abetomo\ConvertAthenaQueryResultstoArray\ConvertAthenaQueryResultstoArray;
+use david50407\ConvertAthenaQueryResultstoArray\ConvertAthenaQueryResultstoArray;
 
 class ConvertAthenaQueryResultstoArrayTest extends TestCase
 {

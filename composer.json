@@ -1,12 +1,16 @@
 {
-    "name": "abetomo/convert-athena-query-results-to-array",
+    "name": "david50407/convert-athena-query-results-to-array",
     "description": "Convert AWS Athena QueryResults to Array.",
     "license": "MIT",
     "authors": [
         {
             "name": "abetomo",
             "email": "abe@enzou.tokyo"
-        }
+        },
+				{
+            "name": "David Kuo",
+						"email": "me@davy.tw"
+				}
     ],
     "require": {
         "php": ">=7.1"
@@ -16,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Abetomo\\ConvertAthenaQueryResultstoArray\\": "src/"
+            "david50407\\ConvertAthenaQueryResultstoArray\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Abetomo\\ConvertAthenaQueryResultstoArray\\Tests\\": "tests/"
+            "david50407\\ConvertAthenaQueryResultstoArray\\Tests\\": "tests/"
         }
     }
 }

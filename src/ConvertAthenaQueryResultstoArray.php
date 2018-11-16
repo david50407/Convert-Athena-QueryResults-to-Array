@@ -1,5 +1,5 @@
 <?php
-namespace Abetomo\ConvertAthenaQueryResultstoArray;
+namespace david50407\ConvertAthenaQueryResultstoArray;
 
 class ConvertAthenaQueryResultstoArray
 {

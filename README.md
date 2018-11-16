@@ -4,7 +4,7 @@ Since the response of GetQueryResults is complicated, it converts it to a simple
 
 ## Installation
 ```bash
-% composer require abetomo/convert-athena-query-results-to-array
+% composer require david50407/convert-athena-query-results-to-array
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ Convert the response of GetQueryResults into an array.
 $getQueryResultsResponse = $athenaClient->getQueryResults([
     'QueryExecutionId' => $queryExecutionId
 ]);
-use Abetomo\ConvertAthenaQueryResultstoArray\ConvertAthenaQueryResultstoArray;
+use david50407\ConvertAthenaQueryResultstoArray\ConvertAthenaQueryResultstoArray;
 print "/// Original value\n";
 print_r($getQueryResultsResponse->get('ResultSet'));
 print "\n/// Convert to array \n";
